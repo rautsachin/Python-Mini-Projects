@@ -2,7 +2,7 @@ import sys # module containing exit functionality.
 import random # module that helps to generate numbers
 
 print("")
-playerchoice = int(input("Enter...\n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n"))
+playerchoice = int(input("Enter...\n1 for Rock,\n2 for Paper, or \n3 for Scissor:\n\n"))
 
 
 if playerchoice < 1 | playerchoice > 3:
