@@ -5,7 +5,7 @@ print("")
 playerchoice = int(input("Enter...\n1 for Rock,\n2 for Paper, or \n3 for Scissor:\n\n"))
 
 
-if playerchoice < 1 | playerchoice > 3:
+if playerchoice < 1 or playerchoice > 3:
   sys.exit("You must enter 1, 2, or 3.")
 
 computerchoice = int(random.choice("123")) # selects a random integer from string "123"
